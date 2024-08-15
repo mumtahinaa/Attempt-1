@@ -1,0 +1,31 @@
+.bg-color {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 2%,
+    rgba(15, 66, 192, 1) 98%
+  );
+}
+.btn-primary{
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+          0deg,
+          rgba(34, 193, 195, 1) 2%,
+          rgba(15, 66, 192, 1) 98%);
+
+}
+.btn-primary:hover{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,0.9697128851540616) 5%, rgba(15,66,192,0.9585084033613446) 64%);
+}
+.hover-color{
+  border-color:darkblue !important;
+  color:darkblue !important;
+}
+.hover-color:hover{
+  background: rgb(238,174,202);
+  background: linear-gradient(239deg, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8128501400560224) 100%);
+}
+.my-button:hover {
+  transform: scale(1.25);
+}
